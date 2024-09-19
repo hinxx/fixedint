@@ -17,8 +17,8 @@ $(function() {
     const batchFloatID = '#batch-float';
     var format = 'hex';
 
-    var fixedPointVal = new FixedPointConverter(23, 24, true);
-    var batchConvert = new FixedPointConverter(23, 24, true);
+    var fixedPointVal = new FixedPointConverter(63, 64, true);
+    var batchConvert = new FixedPointConverter(63, 64, true);
 
     // info relates query parameters to form controls and variables
     const getMap = {
